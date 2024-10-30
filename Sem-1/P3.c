@@ -10,6 +10,6 @@ int main()
     x = y;
     y = tmp;
     printf("x = %d, and y = %d\n", x, y);
-    printf("By Shreyansh Singh");
+    
     return 0;
 }
