@@ -11,6 +11,6 @@ int main()
     x /= i;
     h = x % i;
     printf("%d hours, %d minutes and %d seconds left\n", h, m, s);
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
