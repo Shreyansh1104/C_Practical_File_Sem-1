@@ -18,6 +18,6 @@ int main()
     {
         printf("Scalene Triangle\n");
     }
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
