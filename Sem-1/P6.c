@@ -12,6 +12,6 @@ int main()
     x = x % j;
     d = x;
     printf("%d years, %d weeks and %d days later\n", y, w, d);
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
