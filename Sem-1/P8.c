@@ -14,6 +14,6 @@ int main()
     {
         printf("%d is not a leap year.\n", x);
     }
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
