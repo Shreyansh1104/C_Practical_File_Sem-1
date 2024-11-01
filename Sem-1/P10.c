@@ -22,6 +22,6 @@ int main()
     {
         printf("Invalid Angle Entered.\n");
     }
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
