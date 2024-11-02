@@ -26,6 +26,6 @@ int main()
         y = (x * (9 / 5)) + 32;
         printf("Temperature in Fahrenheit:%d\n", y);
     }
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
