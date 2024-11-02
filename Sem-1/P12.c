@@ -19,6 +19,6 @@ int main()
     {
         printf("No alphabet or digit entered.\n");
     }
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
