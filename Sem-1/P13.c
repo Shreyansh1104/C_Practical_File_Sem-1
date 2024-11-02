@@ -34,6 +34,6 @@ int main()
         printf("Non-alphabet character entered.");
         return 1;
     }
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
