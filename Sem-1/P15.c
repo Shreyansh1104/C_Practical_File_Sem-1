@@ -11,6 +11,6 @@ int main()
     printf("%d is largest\n", y);
     else
     printf("%d is largest\n", z);
-    printf("By Shreyansh Singh\n");
+    
     return 0;
 }
