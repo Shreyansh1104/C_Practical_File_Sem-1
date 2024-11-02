@@ -19,7 +19,8 @@ int main()
         scanf("%d", &x);
         y = (x - 32) * (5 / 9);
         printf("Temperature in Celsius:%d\n", y);
-    }if (t == 2)
+    }
+    else if (t == 2)
     {
         printf("Enter Temperature in Celsius:");
         scanf("%d", &x);
