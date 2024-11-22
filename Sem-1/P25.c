@@ -1,0 +1,1 @@
+/*Write a program in C to accept an integer number and find reverse of this number and check this number for palindrome.*/

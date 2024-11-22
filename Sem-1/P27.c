@@ -1,0 +1,1 @@
+/*Write a program in C to accept an interger number and to check a number is Perfect or not.*/

@@ -1,0 +1,1 @@
+/*Write a program in C to accept an integer number and to check a number is Armstrong or not.*/
