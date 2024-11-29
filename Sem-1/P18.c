@@ -5,7 +5,7 @@ system and determibne in which quadrant the coordinate point lies.*/
 
 int main()
 {
-    int x, y;
+    int x = 2, y = 0;
     if ( x > 0 && y > 0)
     {
         printf("The point lies in first quadrant");
