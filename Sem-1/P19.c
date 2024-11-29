@@ -10,7 +10,7 @@ int main()
     printf("Enter Basic Salary of Employee:");
     scanf("%f", BS);
     HRA = 0.2 * BS;
-    DA = 0. 4 * BS;
+    DA = 0.4 * BS;
     GS = BS + HRA + DA;
     printf("Gross Salary of Employee is %.2f", GS);
     return 0;
