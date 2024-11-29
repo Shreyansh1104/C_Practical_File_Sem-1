@@ -15,16 +15,16 @@ int main()
     scanf(" %c", &op);
     switch (op)
     {
-    case (int) "*":
+    case '*':
         printf("%d*%d = %d", x, y, x*y);
         break;
-    case (int) "+":
+    case '+':
         printf("%d+%d = %d", x, y, x+y);
         break;
-    case (int) "-":
+    case '-':
         printf("%d-%d = %d", x, y, x-y);
         break;
-    case (int) "/":
+    case '/':
         printf("%d/%d = %d", x, y, x/y);
         break;
     default:
