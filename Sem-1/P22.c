@@ -6,13 +6,20 @@ int func(int a);
 int main()
 {
     int x;
+    printf("Enter number:");
+    scanf("%d", &x);
     printf(" Factorial of %d is %d", x, func(x));
     return 0;
 }
 
 int func(int a)
 {
-    int b;
-    b = a * func(a - 1);
-    return (b);
+    if (a == 0)
+    {
+        return 1;
+    }
+    else
+    {
+        return (a * func(a - 1));
+    }
 }
