@@ -6,7 +6,9 @@ int func(int a);
 int main()
 {
     int x;
-    printf("Sum of digits of %d is %d", x, func(x))
+    printf("Enter number:");
+    scanf("%d", &x);
+    printf("Sum of digits of %d is %d", x, func(x));
     return 0;
 }
 
