@@ -12,14 +12,14 @@ int main()
     int C_id, unit;
     float amount;
     printf("Enter Customer ID:");
-    scanf("%d", C_id);
+    scanf("%d", &C_id);
     printf("Enter Units Consumed:");
-    scanf("%d", unit);
+    scanf("%d", &unit);
     if (unit <= 199)
     {
         amount = unit * 1.20;
     }
-    else if (unit < 500)
+    else if (unit <= 500)
     {
         amount = unit * 1.80;
     }
