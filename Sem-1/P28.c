@@ -6,6 +6,8 @@ int func(int x);
 int main()
 {
     int n;
+    printf("Enter no. of terms:");
+    scanf("%d", &n);
     printf("Sum upto %d terms is %d", n, func(n));
     return 0;
 }
@@ -13,6 +15,13 @@ int main()
 int func(int x)
 {
     int sum = 0;
-    sum += 2 * x + func(x - 1);
+    if (x == 0)
+    {
+        return 0;
+    }
+    else
+    {
+        sum += 2 * x + func(x - 1);
+    }
     return (sum);
 }
