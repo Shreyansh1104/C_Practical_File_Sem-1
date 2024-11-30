@@ -10,7 +10,7 @@ int main()
     int days;
     float fine;
     printf("Enter no. of days:");
-    scanf("%d", days);
+    scanf("%d", &days);
     if (days < 6)
     {
         fine = 0.5;
@@ -25,7 +25,7 @@ int main()
     }
     if (days > 30)
     {
-        printf("MEMBERSHIP CANCELLED");
+        printf("MEMBERSHIP CANCELLED\n");
     }
     printf("Fine to be paid by member is %.2f", fine);
     return 0;
