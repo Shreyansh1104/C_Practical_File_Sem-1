@@ -27,7 +27,6 @@ int perf(int x)
         if (x % i == 0)
         {
             y += i;
-            printf("%d\n", y);
         }
     }
     return y;
