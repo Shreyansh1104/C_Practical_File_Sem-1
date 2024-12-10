@@ -5,19 +5,17 @@
 
 int main()
 {
-    int i, arr[10], min = INT_MAX, max = INT_MIN, s_index, l_index;
+    int i, arr[10], min = 0, max = 0;
     for (i = 0; i < 10; i++)
     {
         printf("Enter number:");
         scanf("%d", &arr[i]);
-        if (arr[i] > max)
-        l_index = i;
-        max = arr[i];
-        if (arr[i] < min)
-        s_index = i;
-        min = arr[i];
+        if (arr[i] > arr[max])
+        max = i;
+        if (arr[i] < arr[min])
+        min = i;
     }
-    printf("Index of smallest element: %d\n", s_index);
-    printf("Index of largest element: %d\n", l_index);
+    printf("Index of smallest element: %d\n", min);
+    printf("Index of largest element: %d\n", max);
     return 0;
 }
