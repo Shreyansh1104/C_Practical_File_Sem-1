@@ -1,11 +1,10 @@
 /*Write a program in C to display the index of smallest and largest element in 10 integers*/
 
 #include <stdio.h>
-#include <limits.h>
 
 int main()
 {
-    int i, arr[10], min = INT_MAX, max = INT_MIN;
+    int i, arr[10], min = 0, max = 0;
     for (i = 0; i < 10; i++)
     {
         printf("Enter number:");
