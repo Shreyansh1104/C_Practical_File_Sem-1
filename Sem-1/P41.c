@@ -5,7 +5,7 @@
 
 int main()
 {
-    int i, arr[10], min = 0, max = 0;
+    int i, arr[10], min = INT_MAX, max = INT_MIN;
     for (i = 0; i < 10; i++)
     {
         printf("Enter number:");
