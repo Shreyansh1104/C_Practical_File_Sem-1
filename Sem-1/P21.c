@@ -27,6 +27,6 @@ int main()
     {
         printf("MEMBERSHIP CANCELLED\n");
     }
-    printf("Fine to be paid by member is %.2f", fine);
+    printf("Fine to be paid by member is %.2f\n", fine);
     return 0;
 }
