@@ -28,6 +28,5 @@ int main()
         printf("MEMBERSHIP CANCELLED\n");
     }
     printf("Fine to be paid by member is %.2f\n", fine);
-    printf("By Shreyansh Singh\n");
     return 0;
 }
