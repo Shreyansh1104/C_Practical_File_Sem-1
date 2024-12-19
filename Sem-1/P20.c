@@ -38,6 +38,6 @@ int main()
             amount += amount * 0.15;
         }
     }
-    printf("Total amount to be paid by customer %d with all included charges is %f", C_id, amount);
+    printf("Total amount to be paid by customer %d with all included charges is %f\n", C_id, amount);
     return 0;
 }
