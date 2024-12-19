@@ -8,7 +8,7 @@ int main()
 {
     float BS, HRA, DA, GS;
     printf("Enter Basic Salary of Employee:");
-    scanf("%f", BS);
+    scanf("%f", &BS);
     HRA = 0.2 * BS;
     DA = 0.4 * BS;
     GS = BS + HRA + DA;
