@@ -11,7 +11,7 @@ int main()
     switch(n)
     {
         case 0:
-        printf("0 terms in sequence, hence, sum cannot be obtained");
+        printf("0 terms in sequence, hence, sum cannot be obtained\n");
         break;
         default:
         for (i = 0; i < n; i++)
@@ -33,7 +33,7 @@ int main()
                 sum += z;
             }
         }
-        printf("Sum of Sequence is %d", sum);
+        printf("Sum of Sequence is %d\n", sum);
         break;
     }
     return 0;
