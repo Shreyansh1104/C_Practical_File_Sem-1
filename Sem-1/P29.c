@@ -6,7 +6,7 @@ int prime(int x);
 int main()
 {
     int x;
-    printf("Enter number");
+    printf("Enter number:");
     scanf("%d", &x);
     if (prime(x))
     {

@@ -6,7 +6,7 @@ int rev(int x);
 int main()
 {
     int x;
-    printf("Enter number");
+    printf("Enter number:");
     scanf("%d", &x);
     if (x == rev(x))
     {

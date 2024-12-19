@@ -23,7 +23,6 @@ int fact(int x)
     else
     {
         x = x * fact(x - 1);
-        printf("%d\n", x);
     }
     return x;
 }
