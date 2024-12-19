@@ -8,7 +8,7 @@ int main()
     int x;
     printf("Enter number:");
     scanf("%d", &x);
-    printf("Sum of digits of %d is %d", x, func(x));
+    printf("Sum of digits of %d is %d\n", x, func(x));
     return 0;
 }
 
