@@ -12,6 +12,6 @@ int main()
     HRA = 0.2 * BS;
     DA = 0.4 * BS;
     GS = BS + HRA + DA;
-    printf("Gross Salary of Employee is %.2f", GS);
+    printf("Gross Salary of Employee is %.2f\n", GS);
     return 0;
 }
