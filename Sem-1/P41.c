@@ -1,7 +1,6 @@
 /*Write a program in C to display the index of smallest and largest element in 10 integers*/
 
 #include <stdio.h>
-#include <limits.h>
 
 int main()
 {
