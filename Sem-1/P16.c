@@ -16,19 +16,19 @@ int main()
     switch (op)
     {
     case '*':
-        printf("%d*%d = %d", x, y, x*y);
+        printf("%d*%d = %d\n", x, y, x*y);
         break;
     case '+':
-        printf("%d+%d = %d", x, y, x+y);
+        printf("%d+%d = %d\n", x, y, x+y);
         break;
     case '-':
-        printf("%d-%d = %d", x, y, x-y);
+        printf("%d-%d = %d\n", x, y, x-y);
         break;
     case '/':
-        printf("%d/%d = %d", x, y, x/y);
+        printf("%d/%d = %d\n", x, y, x/y);
         break;
     default:
-        printf("Invalid operator entered.");
+        printf("Invalid operator entered.\n");
         return 1;
     }
 
